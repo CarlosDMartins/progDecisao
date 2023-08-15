@@ -3,11 +3,25 @@
 deste valor, ou seja, o número lido como sendo positivo.
 '''
 
-num = int(input("Informe um número:"))
+num = int(input("Insira um valor positivo ou negativo: "))
 
-som = num + num
+# Condições e Prints
 
-if ( som >= 0 ):
-    print(f"{num} é positivo")
+if (num <= 0):
+    print(f" O módulo do valor inserido é:",num * -1)
 else:
-    print(f"{num} é negativo")
+    print(f"O modulo do valor inserido é: {num}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
